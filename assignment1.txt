@@ -1,0 +1,21 @@
+#calculator program using if else condition
+no1 = int(input("Enter first number: "))
+no2 = int(input("Enter second number: "))
+
+# choice operation
+print("Operation: +, -, *, /")
+choice = input("Select operations: ")
+if choice == "+":
+    print(no1, "+", no2, "=", no1+no2)
+
+elif choice == "-":
+    print(no1, "-", no2, "=", no1-no2)
+
+elif choice == "*":
+    print(no1, "*", no2, "=", no1*no2)
+
+elif choice == "/":
+    print(no1, "/", no2, "=", no1/no2)
+
+else:
+    print("Invalid input")
